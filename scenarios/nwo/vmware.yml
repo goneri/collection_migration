@@ -104,7 +104,6 @@ general:
   - cloud/vmware/vmware_guest_disk.py
   - cloud/vmware/vmware_guest_disk_info.py
   - cloud/vmware/vmware_guest_file_operation.py
-  - cloud/vmware/vmware_guest_find.py
   - cloud/vmware/vmware_guest_info.py
   - cloud/vmware/vmware_guest_move.py
   - cloud/vmware/vmware_guest_network.py
@@ -173,7 +172,6 @@ general:
   - cloud/vmware/vmware_vm_storage_policy_info.py
   - cloud/vmware/vmware_vm_vm_drs_rule.py
   - cloud/vmware/vmware_vm_vss_dvs_migrate.py
-  - cloud/vmware/vmware_vmkernel.py
   - cloud/vmware/vmware_vmkernel_info.py
   - cloud/vmware/vmware_vmkernel_ip_config.py
   - cloud/vmware/vmware_vmotion.py
