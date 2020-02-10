@@ -1405,7 +1405,7 @@ def assemble_collections(checkout_path, spec, args, target_github_org):
             subprocess.check_call(('git', 'init'), cwd=collection_dir)
             subprocess.check_call(('git', 'add', '.'), cwd=collection_dir)
             subprocess.check_call(
-                ('git', 'commit', '-m', 'Initial commit', '--allow-empty'),
+                ('git', 'commit', '-m', 'Initial commit', '--allow-empty', '--no-gpg-sign'),
                 cwd=collection_dir,
             )
 
