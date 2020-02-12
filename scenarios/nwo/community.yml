@@ -474,7 +474,6 @@ general:
   - tower.py
   - url_windows.py
   - utm.py
-  - vca.py
   - vexata.py
   - vultr.py
   - xenserver.py
@@ -749,7 +748,6 @@ general:
   - storage/hpe3par/hpe3par.py
   - univention_umc.py
   - utm_utils.py
-  - vca.py
   - vexata.py
   - vultr.py
   - xenserver.py
@@ -2852,11 +2850,13 @@ vmware:
   - VmwareRestModule_state.py
   - vmware.py
   - vmware_rest_client.py
+  - vca.py
   httpapi:
   - vmware.py
   inventory:
   - vmware_vm_inventory.py
   module_utils:
+  - vca.py
   - vmware.py
   - vmware_httpapi/VmwareRestModule.py
   - vmware_httpapi/__init__.py
