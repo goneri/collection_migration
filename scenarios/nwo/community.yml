@@ -2693,23 +2693,9 @@ vmware:
   connection:
   - vmware_tools.py
   doc_fragments:
-  - VmwareRestModule.py
-  - VmwareRestModule_filters.py
-  - VmwareRestModule_full.py
-  - VmwareRestModule_state.py
   - vca.py
-  - vmware.py
-  - vmware_rest_client.py
-  httpapi:
-  - vmware.py
-  inventory:
-  - vmware_vm_inventory.py
   module_utils:
   - vca.py
-  - vmware.py
-  - vmware_httpapi/VmwareRestModule.py
-  - vmware_httpapi/__init__.py
-  - vmware_rest_client.py
   - vmware_spbm.py
   modules:
   - cloud/vmware/__init__.py
@@ -2775,9 +2761,7 @@ vmware:
   - cloud/vmware/vmware_drs_group_info.py
   - cloud/vmware/vmware_drs_rule_info.py
   - cloud/vmware/vmware_dvs_host.py
-  - cloud/vmware/vmware_dvs_portgroup.py
   - cloud/vmware/vmware_dvs_portgroup_find.py
-  - cloud/vmware/vmware_dvs_portgroup_info.py
   - cloud/vmware/vmware_dvswitch.py
   - cloud/vmware/vmware_dvswitch_lacp.py
   - cloud/vmware/vmware_dvswitch_nioc.py
@@ -2786,7 +2770,6 @@ vmware:
   - cloud/vmware/vmware_evc_mode.py
   - cloud/vmware/vmware_export_ovf.py
   - cloud/vmware/vmware_folder_info.py
-  - cloud/vmware/vmware_guest.py
   - cloud/vmware/vmware_guest_boot_info.py
   - cloud/vmware/vmware_guest_boot_manager.py
   - cloud/vmware/vmware_guest_controller.py
@@ -2794,20 +2777,15 @@ vmware:
   - cloud/vmware/vmware_guest_custom_attribute_defs.py
   - cloud/vmware/vmware_guest_custom_attributes.py
   - cloud/vmware/vmware_guest_customization_info.py
-  - cloud/vmware/vmware_guest_disk.py
-  - cloud/vmware/vmware_guest_disk_info.py
   - cloud/vmware/vmware_guest_file_operation.py
   - cloud/vmware/vmware_guest_find.py
   - cloud/vmware/vmware_guest_info.py
   - cloud/vmware/vmware_guest_move.py
-  - cloud/vmware/vmware_guest_network.py
   - cloud/vmware/vmware_guest_powerstate.py
   - cloud/vmware/vmware_guest_register_operation.py
   - cloud/vmware/vmware_guest_screenshot.py
   - cloud/vmware/vmware_guest_sendkey.py
   - cloud/vmware/vmware_guest_serial_port.py
-  - cloud/vmware/vmware_guest_snapshot.py
-  - cloud/vmware/vmware_guest_snapshot_info.py
   - cloud/vmware/vmware_guest_tools_info.py
   - cloud/vmware/vmware_guest_tools_upgrade.py
   - cloud/vmware/vmware_guest_tools_wait.py
@@ -2850,8 +2828,6 @@ vmware:
   - cloud/vmware/vmware_maintenancemode.py
   - cloud/vmware/vmware_migrate_vmk.py
   - cloud/vmware/vmware_object_role_permission.py
-  - cloud/vmware/vmware_portgroup.py
-  - cloud/vmware/vmware_portgroup_info.py
   - cloud/vmware/vmware_resource_pool.py
   - cloud/vmware/vmware_resource_pool_info.py
   - cloud/vmware/vmware_tag.py
@@ -2873,10 +2849,6 @@ vmware:
   - cloud/vmware/vmware_vsan_cluster.py
   - cloud/vmware/vmware_vsan_health_info.py
   - cloud/vmware/vmware_vspan_session.py
-  - cloud/vmware/vmware_vswitch.py
-  - cloud/vmware/vmware_vswitch_info.py
-  - cloud/vmware/vsphere_copy.py
-  - cloud/vmware/vsphere_file.py
   - cloud/vmware_httpapi/__init__.py
   - cloud/vmware_httpapi/vmware_appliance_access_info.py
   - cloud/vmware_httpapi/vmware_appliance_health_info.py
